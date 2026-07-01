@@ -1,0 +1,9 @@
+Government Security Audit Report
+========================================
+
+URL: https://cinemacrick.onrender.com/
+Risk: MEDIUM
+Score: 60
+
+Findings:
+- Missing headers: ['CSP', 'XFO', 'HSTS']
