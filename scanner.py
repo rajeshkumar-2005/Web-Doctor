@@ -40,8 +40,11 @@ def check_headers(url):
             missing.append("HSTS")
 
         return {"score": score, "missing": missing}
-    except:
-        return {"score": 0, "missing": ["error"]}
+    except Exception:
+    return {
+        "score": 0,
+        "missing": ["Unable to analyze"]
+    }
 
 
 # ---------- PORT CHECK ----------
